@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bright Star Banjo Audition - Chad Roseburg</title>
+
+    <style>
+        body {
+            /* Sets a clean, base font for the whole page */
+            font-family: Arial, sans-serif; 
+            background-color: #f4f4f4; /* Light grey background for contrast */
+        }
+        
+        #main-content {
+            /* --- 1. SET THE WIDTH --- */
+            width: 80%; /* The content column will take up 80% of the screen */
+            max-width: 700px; /* But it won't be wider than 700px (great for readability) */
+            
+            /* --- 2. CENTER THE DIV ITSELF --- */
+            margin: 40px auto; /* 40px of margin on top/bottom, auto on left/right to center it */
+            
+            /* --- 3. LEFT-ALIGN CONTENT INSIDE --- */
+            text-align: left; /* All text inside starts from the left edge of this div */
+            
+            /* Optional: Add visual appeal to the content box */
+            padding: 20px; 
+            background-color: white; 
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        /* Ensure the audio players also respect the left alignment */
+        audio {
+            width: 100%; /* Make the player span the full width of the main-content div */
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main-content">
+    <h1>Bright Star Banjo Audition</h1>
+    <h2>Chad Roseburg</h2>
+    
+    <h3>Clip 1: Old Joe Clark</h3>
+    <h4>Style: Clawhammer</h4>
+    <audio controls>
+        <source src="audio/old-joe-clark.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Clip 2: Chilly Winds</h3>
+    <h4>Style: 3-Finger Upstroke (Traditional)</h4>
+    <audio controls>
+        <source src="audio/chilly-winds.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+ 
+    <h3>Clip 3: Asheville ( Martin, Brickell )</h3>
+    <h4>Style: Clawhammer</h4>
+    <audio controls>
+        <source src="audio/asheville.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <p>Thank you for listening!</p>
+    </div>
+</body>
+</html>
